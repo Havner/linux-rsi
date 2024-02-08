@@ -9,7 +9,7 @@ description = "Command line interface for the RSI kernel module"
 
 [dependencies]
 clap = { version = "*", features = ["derive"] }
-rust-rsi = { git = "https://github.com/Havner/rust-rsi.git" }
+rust-rsi = { git = "https://github.com/Havner/rust-rsi.git", branch = "zos/bet0" }
 rand = "*"
 
 [profile.release]
